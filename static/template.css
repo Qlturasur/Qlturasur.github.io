@@ -30,7 +30,7 @@ box-sizing:border-box;
 .universe{
 	background: #333;
 	padding-right: 300px;
-	background: #333 url(../media/backend.gif) no-repeat top center;
+	background: #333 url(../media/back01.jpg) no-repeat top center;
 	background-attachment: fixed;
 	background-size: 100%;
 	padding-top: 28px;
@@ -115,7 +115,7 @@ h2{
 	height: 50px;
 	margin: 0 auto;
 	border-radius: 50%;
-	background-color: #8294ee!important;
+	background-color: #FFEB3B!important;
 	background-size: 60%!important;
 }
 
@@ -145,7 +145,7 @@ h2{
 	font-size: 12px;
 }
 .logo{
-	background: #2196F3 url(../media/almaginetWhite.png) no-repeat left 8px center;
+	background: #FF9800 url(../media/almaginetWhite.png) no-repeat left 8px center;
 	background-size: 26px;
 	padding-left: 30px;
 	width: 300px;
@@ -306,7 +306,7 @@ footer td a:hover{
 }
 .title{
 	padding: 10px;
-	background: rgba(0, 0, 0, 0.15) url(../media/icons/119.png) no-repeat left 20px center;
+	background: rgba(0, 0, 0, 0.15) url(../media/fapuc.png) no-repeat left 20px center;
 	background-size: 30px;
 	text-align: left;
 	padding-left: 80px;
@@ -325,11 +325,11 @@ footer td a:hover{
 }
 .avatar{
 	display: block;
-	width: 100px;
-	height: 100px;
-	background: #3F51B5 url(../media/onair.gif) no-repeat center top;
+	width: 160px;
+	height: 160px;
+	background: #fff url(../media/logo.png) no-repeat center top;
 	background-size: 100%;
-	border-radius: 50%;
+	border-radius: 20%;
 	border: 3px solid rgba(255, 255, 255, 0.36);
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -362,7 +362,7 @@ footer td a:hover{
 	position: fixed;
 	left: 0;
 	top: 29px;
-	background: #3F51B5;
+	background: #ff7c00;
 	vertical-align: top;
 	text-align: center;
 }
@@ -702,7 +702,7 @@ footer td a:hover{
 	top: auto;
 	z-index: 2;
 	bottom: 0;
-	background: #3F51B5;
+	background: #a05e0c;
 	vertical-align: top;
 	text-align: center;
 }
