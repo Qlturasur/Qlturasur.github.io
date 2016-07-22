@@ -757,8 +757,18 @@ footer td a:hover{
 	text-align: center;
 }
 
-.principalNav{
+.principalNav ul li a{
 	display: none;
+}
+.rplay, .rpause, .rvol1, .rvol2{
+	display: block!important;
+}
+
+.tableL{
+	display: none;
+}
+.logo{
+	display: none!important;
 }
 
 .universe{
@@ -767,7 +777,7 @@ footer td a:hover{
 	background: #333 url(../media/backend.gif) no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto 100%;
-	padding-top: 0px;
+	padding-top: 29px;
 	padding-left: 0px;
 	padding-bottom: 100px;
 }
