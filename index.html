@@ -26,23 +26,50 @@
 			<div class="table">
 			<ul class="tableL"><li><a  ><strong>Ecuador (LA)</strong></a></li></ul>
 			<ul class="tableR">
+
+				
+				<li>
+				<a class="rplay" onclick="document.getElementById('player').play()">Reproducir el Audio</a></li>
+				<li>
+				<a class="rpause"onclick="document.getElementById('player').pause()">Pausar el Audio</a></li>
+				<li>
+				 <a class="rvol1" onclick="document.getElementById('player').volume+=0.1">Aumentar el Volumen</a></li>
+				 <li>
+				 <a class="rvol2" onclick="document.getElementById('player').volume-=0.1">Disminuir el Volumen</a></li>
+
+				<script type="text/javascript">
+
+				$(document).ready(function() {
+				    document.getElementById('player').play();
+				});
+
+				</script>
+
+				</li>
+
 				<li><a onclick="right01()" >Eventos</a></li>
 				<li><a onclick="right03()" >Perfiles</a></li>
 				<li><a onclick="right05()" >Lugares</a></li>
 				<li><a onclick="right02()" >Proyectos</a></li>
 				<li><a onclick="right04()" >Experiencias</a></li>
-				<li class="logo"><a onclick="right00()" >Almaginet.com</a></li>
+				<li class="logo"><a onclick="right00()" >Gracias a Almaginet.com</a></li>
 			</ul>
 			</div>
 		</nav>
+		
 		<h3 class="title">#RadioSensacionesOnline</h3>
 			<section class="padding">
 				<div class="avatar"></div>
+				<li>
+				    <audio id="player" src="http://195.154.182.222:25006/live" style=" display:inline-block; height: 20px; width: 120px;" controls="true" autoplay ></audio>
+				</li>
 			<h1>Radio Sensaciones Online</h1>
 			<h2>Creamos Arte, Cultura y Educación</h2>
 			<a onclick="tlf()" class="action">CONOCE RADIO SENSACIONES<span id="tlf" class="hidden">09 8734 9167</span></a>
 			<br/>
 			<p>www.fapuc.org</p>
+
+
 			</section>
 		</div>
 
